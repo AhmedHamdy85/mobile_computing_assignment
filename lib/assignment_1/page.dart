@@ -13,22 +13,14 @@ class FirstAssignment extends StatelessWidget {
           style: TextStyle(),
         ),
       ),
-      body: Center(
-        child: Container(
-          width: 200,
-          height: 50,
-          decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(16),
-              boxShadow: const [BoxShadow(color: Colors.grey, blurRadius: 4)]),
-          child: const Center(
-            child: Text(
-              'Ahmed Mabrouk',
-              style: TextStyle(
-                color: Colors.black,
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-              ),
+      body: const Center(
+        child: Center(
+          child: Text(
+            'Ahmed Hamdy',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
             ),
           ),
         ),
