@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class FirstAssignment extends StatelessWidget {
   const FirstAssignment({super.key});
@@ -9,18 +7,29 @@ class FirstAssignment extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.red,
         title: const Text(
           'First Application',
           style: TextStyle(),
         ),
       ),
-      body: const Center(
-        child: Text(
-          'Ahmed Hamdy',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
+      body: Center(
+        child: Container(
+          width: 200,
+          height: 50,
+          decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(16),
+              boxShadow: const [BoxShadow(color: Colors.grey, blurRadius: 4)]),
+          child: const Center(
+            child: Text(
+              'Ahmed Mabrouk',
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ),
         ),
       ),
