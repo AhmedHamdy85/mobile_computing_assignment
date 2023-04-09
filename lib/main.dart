@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'assignment_2/birth_day_card.dart';
+import 'package:mobile_computing_assignment/assingment_3/business_card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: BarthDayCard(),
+      home: BusinessCard(),
     );
   }
 }
