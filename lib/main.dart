@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_computing_assignment/assingment_3/business_card.dart';
+import 'package:mobile_computing_assignment/assignment_4/bascet_ball_app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: BusinessCard(),
+      home: BascetBallApp(),
     );
   }
 }
