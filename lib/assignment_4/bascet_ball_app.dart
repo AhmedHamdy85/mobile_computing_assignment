@@ -120,8 +120,8 @@ class _BascetBallAppState extends State<BascetBallApp> {
           ),
           ElevatedButton(
               style: ElevatedButton.styleFrom(
-                  fixedSize: const Size.fromWidth(200),
-                  backgroundColor: Colors.orange),
+                fixedSize: const Size.fromWidth(200),
+                backgroundColor: Colors.orange),
               onPressed: () {
                 setState(() {
                   teamABoint = 0;
